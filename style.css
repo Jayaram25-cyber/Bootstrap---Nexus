@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body {
+    font-family: "Syne", sans-serif;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+.navbar {
+    font-family: "Syne", sans-serif;
+    background-color: black;
+}
+
+
+.navbar .nav-link.active {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 18px;
+}
+
+.navbar-brand {
+    font-size: clamp(28px, 3.5vw, 50px);
+}
+
+.nav-link {
+    font-size: clamp(16px, 1.8vw, 25px);
+}
+
+.hero-section,
+.company,
+.information,
+.agenda,
+.keyspeakers,
+.whyattend,
+.testimonial,
+.registernow,
+.ticketoption,
+.contact-section,
+.footer-section {
+    background-color: black;
+}
+
+.hero-wrapper {
+    background-color: #1A1A1A;
+    background-image: url(./Assets/B1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    border-radius: 50px;
+}
+
+.hero-wrapper>div:nth-child(1)>span {
+    font-size: clamp(16px, 1.53vw, 22px);
+}
+
+.hero-wrapper>div:nth-child(2)>h1>span {
+    font-size: clamp(30px, 6.95vw, 100px);
+}
+
+.hero-wrapper>div:nth-child(2)>p>span {
+    font-size: clamp(18px, 1.53vw, 22px);
+}
+
+.hero-wrapper>div:nth-child(2)>p {
+    margin-bottom: 100px;
+}
+
+.hero-wrapper>div:nth-child(2)>a {
+    padding: 10px 35px;
+    background: linear-gradient(to right, #0147FF 0%, #0147FF00 100%);
+    border-radius: 35px;
+    font-size: clamp(16px, 1.74vw, 25px);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.info-wrapper>div>div:nth-child(1)>div {
+    background-color: #0147FF;
+    border-radius: 50px;
+}
+
+.info-wrapper>div>div:nth-child(2)>div>div:nth-child(1) {
+    background-color: #0147FF;
+    border-radius: 50px;
+}
+
+.info-wrapper>div>div:nth-child(2)>div>div:nth-child(2) {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.info-wrapper>div>div>div>h1 {
+    font-size: clamp(28px, 4vw, 40px);
+}
+
+
+.btn-more {
+    border: 1.5px solid #ffffff;
+    padding: 20px 28px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.information {
+    padding-bottom: 50px;
+}
+
+.sub-head,
+.review-text {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+.agenda,
+.ticketoption {
+    padding-bottom: 100px;
+}
+
+.agenda-heading h1,
+.keyspeakers-heading h1,
+.whyattend h1,
+.register-title {
+    font-size: clamp(40px, 7vw, 100px);
+}
+
+.agenda-wrapper {
+    background-color: #1A1A1A;
+    background-image: url(./Assets/Mark.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-radius: 50px;
+}
+
+.butt a {
+    padding: 15px 35px;
+    background: linear-gradient(to right, #0147FF 0%, #0147FF00 100%);
+    border-radius: 35px;
+    font-size: clamp(16px, 1.74vw, 25px);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.keyspeakers-wrapper img {
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+.keyspeakers-wrapper>div:nth-child(1)>div:nth-child(odd)>div {
+    background-color: #DEDEE0;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.keyspeakers-wrapper>div:nth-child(2)>div:nth-child(even)>div {
+    background-color: #DEDEE0;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.whyattend,
+.testimonial,
+.registernow {
+    padding: 100px 0px;
+}
+
+.whyattend-wrapper>div>div:nth-child(1)>div {
+    background-image: url(./Assets/01.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #1A1A1A;
+}
+
+.whyattend-wrapper>div>div:nth-child(2)>div {
+    background-image: url(./Assets/02.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #1A1A1A;
+}
+
+.whyattend-wrapper>div:nth-child(2)>div:nth-child(1)>div {
+    background-image: url(./Assets/03.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #1A1A1A;
+}
+
+.whyattend-wrapper>div:nth-child(2)>div:nth-child(2)>div {
+    background-image: url(./Assets/04.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #1A1A1A;
+}
+
+.section-title {
+    font-size: clamp(32px, 4vw, 50px);
+}
+
+.review-card {
+    border-radius: 40px;
+    min-height: 420px;
+}
+
+.card-dark {
+    background-color: #1A1A1A;
+}
+
+.card-blue {
+    background-color: #0147FF;
+}
+
+.card-light {
+    background-color: #DDE0E5;
+}
+
+.card-heading,
+.footer-head {
+    font-size: clamp(22px, 2.5vw, 30px);
+}
+
+.nav-btn {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-dark-circle {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
+
+.btn-dark-circle:hover {
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-light-circle {
+    background-color: #DDE0E5;
+    border: none;
+    color: #0147FF;
+}
+
+.btn-light-circle:hover {
+    background-color: #ffffff;
+}
+
+.register-wrapper {
+    background-color: #1A1A1A;
+    border-radius: 50px;
+    background-image: url(./Assets/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.timer {
+    font-size: clamp(70px, 14vw, 200px);
+}
+
+.ticketoption {
+    padding: 70px 0px;
+}
+
+.ticket-card1 {
+    border-radius: 40px;
+    min-height: 420px;
+    background-color: #0147FF;
+}
+
+.ticket-card2 {
+    border-radius: 40px;
+    min-height: 420px;
+    border: 2px solid white;
+}
+
+.ticket-card3 {
+    border-radius: 40px;
+    min-height: 420px;
+    border: 2px solid white;
+}
+
+.ticket-card-title,
+.contact-wrapper h5,
+.contact-wrapper h2 {
+    font-size: clamp(18px, 2vw, 26px);
+}
+
+.price,
+.ticket-title,
+.contact-wrapper h1 {
+    font-size: clamp(32px, 3.5vw + 10px, 50px);
+}
+
+.ticket-link1 a {
+    padding: 14px 25px;
+    background-color: #DEDEE0;
+    border-radius: 100px;
+    color: black;
+    font-size: clamp(16px, 1.74vw, 25px);
+}
+
+.ticket-link2 a {
+    padding: 14px 25px;
+    background: linear-gradient(to right, #0147FF 0%, #001B6B 100%);
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: clamp(16px, 1.74vw, 25px);
+}
+
+.ticket-link3 a {
+    padding: 14px 25px;
+    background: linear-gradient(to right, #0147FF 0%, #001B6B 100%);
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: clamp(16px, 1.74vw, 25px);
+}
+
+.contact-card {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.custom-input {
+    border-bottom: 1.5px solid #9aa0a6 !important;
+    border-radius: 0 !important;
+    color: #111;
+    resize: none;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.contact-wrapper {
+    background-color: #1A1A1A;
+    border-radius: 50px;
+}
+
+.footer-wrapper {
+    padding: 80px 0px;
+}
+
+.footer-wrapper>div {
+    background-color: #DEDEE0;
+    border-radius: 50px;
+}
+
+.footer-wrapper>div>div:nth-child(2)>div {
+    background-color: #0147FF;
+    min-height: 530px;
+    border-radius: 50px;
+}
+
+.blue-input {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+    border-radius: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+.blue-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blue-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom-color: #ffffff !important;
+}
